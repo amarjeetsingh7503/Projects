@@ -1,0 +1,143 @@
+body{
+    background-color: #03001C;
+}
+
+#newtask{
+    background-color: #F2D8D8;
+    text-align: center;
+    width: 50%;
+    padding: 1px 0px 45px 0px;
+    margin: 5% auto 0% auto;
+}
+
+#firstimg{
+    float: left;
+}
+
+#secondimg{
+    float: right;
+}
+
+input{
+    background-color: #C2DEDC;
+    border: 1.6px solid #374259;
+    height: 20px;
+    width: 50%;
+    font-family:'Acme', sans-serif;
+}
+
+input:focus{
+    outline: none;
+    background-color: azure;
+    border-color: #E8A0BF;
+}
+
+#push{
+    background-color: #E97777;
+    border: 1.6px solid #8B7E74;
+    font-family: 'Acme', sans-serif;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+
+#input{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#tasks{
+    background-color: #FFF3DA;
+    border: 2px solid #FBA1B7;
+    width: 70%;
+    margin: 5% auto 0% auto;
+
+}
+
+.removeButton{
+   outline: none;
+   float: right;
+   background: none;
+   border: none;
+   cursor: pointer;
+}
+
+#checkbox{
+    width: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+#taskText{
+    display: block;
+    margin: 0;
+    flex: 1;
+    font-family: 'Acme', sans-serif;
+}
+
+.taskItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+  }
+  
+.taskItem:hover {
+    background-color: #f0f0f0;
+}
+
+input[id=checkbox]:checked~p.strikethrough {
+    text-decoration: line-through;
+    color: black;
+  }
+
+@media(max-width:850px){
+    #newtask{
+        width: 350px;
+        padding-bottom: 20px;
+        margin: 5% auto 0% auto;
+    }
+    
+    input{
+        height: 15px;
+        font-size: 10px;
+        font-family: 'Acme', sans-serif;
+    }
+    
+    #push{
+        height: 18px;
+        border: 1px solid #8B7E74;
+        font-size: 10px;
+        font-family: 'Acme', sans-serif;
+    }      
+    
+    h1{
+        font-size: 20px;
+    }
+
+    #firstimg{
+       width: 40px; 
+    }
+    
+    #secondimg{
+        width: 40px;
+    }
+
+    #tasks{
+        width: 350px;
+    }
+
+    #taskText{
+        font-size: 12px;
+        font-family: 'Acme', sans-serif;
+    }
+    
+    .taskItem{
+        padding: 0;
+        padding-left: 10px;
+    }
+}

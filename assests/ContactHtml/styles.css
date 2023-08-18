@@ -1,0 +1,25 @@
+.contact{
+    padding-left: 10px;
+}
+
+.photo{
+    border: 5px solid #071952;
+    border-radius: 50%;
+    width: 150px;
+}
+
+h1{
+    text-decoration: underline double;
+}
+
+@media(max-width: 650px){
+    .contact{
+        padding-left: 10px;
+        font-size: 12px;
+    }
+    
+    .photo{
+        border: 2.5px solid;
+        width: 110px;
+    }   
+}
