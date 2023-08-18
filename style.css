@@ -14,12 +14,11 @@
 
 @media(max-width: 600px){
     .project-title{
-        display: inline;
+        display: grid;
     }
     
     .card{
+        display: grid;
         width: 15rem;
-        padding: 20px;
-        margin-top: 30px;
     }  
 }
