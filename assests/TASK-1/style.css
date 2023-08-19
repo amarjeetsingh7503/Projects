@@ -1,9 +1,6 @@
-body{
-    background-color: #03001C;
-}
-
 #newtask{
-    background-color: #F2D8D8;
+    background-color: #071952;
+    color: aliceblue;
     text-align: center;
     width: 50%;
     padding: 1px 0px 45px 0px;
@@ -19,9 +16,9 @@ body{
 }
 
 input{
-    background-color: #C2DEDC;
+    background-color: white;
     border: 1.6px solid #374259;
-    height: 20px;
+    height: 30px;
     width: 50%;
     font-family:'Acme', sans-serif;
 }
@@ -40,6 +37,7 @@ input:focus{
 
 h1{
     font-family: 'Dancing Script', cursive;
+    padding: 15px;
 }
 
 #input{
@@ -49,8 +47,8 @@ h1{
 }
 
 #tasks{
-    background-color: #FFF3DA;
-    border: 2px solid #FBA1B7;
+    background-color: #f0f0f0;
+    border: 2px solid #071952;
     width: 70%;
     margin: 5% auto 0% auto;
 
